@@ -3,17 +3,9 @@
 
 Projeto desenvolvido durante o curso da DIO: **detecção de anomalias em transações em Python**.
 
-O objetivo é desenvolver modelos capazes de identificar transações fraudulentas em um conjunto de dados altamente desbalanceado, explorando diferentes algoritmos, técnicas de tratamento do desbalanceamento e métricas de avaliação. Dentre eles:
-- Explorar e analisar os dados de transações;
-- Identificar o desbalanceamento entre transações normais e fraudulentas;
-- Realizar pré-processamento dos dados;
-- Treinar modelos de Machine Learning;
-- Avaliar os modelos utilizando Precision, Recall, F1-Score e AUC;
-- Testar técnicas como SMOTE e ajuste de threshold;
-- Realizar otimização de hiperparâmetros com GridSearchCV;
-- Interpretar as previsões utilizando SHAP.
+O objetivo é desenvolver modelos capazes de identificar transações fraudulentas em um conjunto de dados altamente desbalanceado, explorando diferentes algoritmos, técnicas de tratamento do desbalanceamento e métricas de avaliação.
 
-## Tecnologias e ferramentas
+### Tecnologias e ferramentas utilizadas
 
 - Python
 - Pandas
@@ -25,6 +17,8 @@ O objetivo é desenvolver modelos capazes de identificar transações fraudulent
 - Matplotlib
 - Jupyter Notebook
 - Google Colab
+
+<br>
 
 ## Dataset
 
@@ -42,6 +36,8 @@ Os dados foram divididos em:
 - 30% para teste
 
 A divisão foi realizada utilizando `stratify` para preservar a proporção das classes.
+
+<br>
 
 ## Modelos utilizados
 
