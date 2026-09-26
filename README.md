@@ -6,23 +6,6 @@ Projeto desenvolvido durante o curso da DIO **Detecção de Anomalias em Transa�
 
 O objetivo é desenvolver modelos capazes de identificar transações fraudulentas em um conjunto de dados altamente desbalanceado, explorando diferentes algoritmos de classificação, técnicas de tratamento do desbalanceamento, ajuste de limiar de decisão e métodos de interpretabilidade.
 
----
-
-## Objetivos
-
-Neste projeto foram exploradas as seguintes etapas:
-
-* análise exploratória do conjunto de dados;
-* identificação do desbalanceamento entre transações normais e fraudulentas;
-* preparação e transformação das variáveis;
-* treinamento de diferentes modelos de classificação;
-* aplicação de técnicas de balanceamento;
-* comparação de Precision, Recall, F1-Score e ROC-AUC;
-* análise das curvas ROC e Precision-Recall;
-* ajuste do threshold de decisão;
-* utilização de SHAP para interpretação das previsões;
-* análise individual de uma transação classificada pelo modelo.
-
 Em problemas de detecção de fraude, o **Recall da classe fraudulenta** é uma métrica especialmente importante, pois representa a proporção das fraudes reais que foram identificadas pelo modelo.
 
 ---
